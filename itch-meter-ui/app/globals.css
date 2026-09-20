@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("https://fonts.gstatic.com/s/fraunces/v31/6NUh8FyLNQOQZAnv9DwvhOMht4XVKuC3v0k.ttf") format("truetype");
+  font-weight: 300 700;
+  font-style: normal;
+}
+
+:root {
+  --paper: #F2F0E9;
+  --paper-raised: #FBFAF6;
+  --ink: #1D2321;
+  --ink-soft: #4A524E;
+  --line: #D9D5C8;
+
+  --itch-low: #6B8A6B;
+  --itch-mid: #C98A2C;
+  --itch-high: #B33F2B;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.font-display {
+  font-family: "Fraunces", Georgia, serif;
+}
+
+::selection {
+  background: var(--itch-mid);
+  color: var(--paper-raised);
+}
+
+a {
+  color: inherit;
+}

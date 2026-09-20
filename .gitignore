@@ -1,0 +1,17 @@
+# Next.js
+itch-meter-ui/node_modules/
+itch-meter-ui/.next/
+
+# Environment variables
+itch-meter-ui/.env
+itch-meter-ui/.env.local
+.env
+.env.local
+
+# Credentials
+SUPABASE.txt
+gemini (google ai studio).txt
+
+# Python
+__pycache__/
+*.pyc
